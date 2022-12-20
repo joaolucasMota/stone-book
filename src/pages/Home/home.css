@@ -1,0 +1,60 @@
+
+.home-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.img{
+    width: 70%;
+    max-width: 600px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+
+input{
+    padding: 5px 15px;
+    border-radius: 4px;
+    margin: 5px;
+    color: #A1A3A6;
+}
+
+input::placeholder{
+    text-align: center;
+
+}
+
+form > button{
+    padding: 5px 12px;
+    margin-top: 5px;
+    border-radius: 4px;
+    font-weight: bold;
+    background-color: #318ce7b5;
+    color: #eeeeee;
+    transition-duration: .5s;
+}
+
+form > button:hover{
+    background-color: #eeeeee;
+    color: #318ce7b5;
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.197);
+}
+
+.cadastro{
+    text-decoration: none;
+    color: #eeeeee;
+    font-size: 14px;
+    margin-top: 30px;
+    text-shadow: 3px 2px 1px rgba(0, 0, 0, 0.197);
+}
